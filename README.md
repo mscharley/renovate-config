@@ -6,7 +6,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "github>equiem/mscharley"
+    "github>mscharley/renovate-config"
   ]
 }
 ```
