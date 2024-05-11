@@ -30,7 +30,7 @@
 		},
 		{
 			"matchPackageNames": ["@mscharley/eslint-config", "@mscharley/prettier-config", "eslint"],
-			"matchPackagePrefixes": ["eslint-plugin-", "eslint-config-"],
+			"matchPackagePrefixes": ["eslint-plugin-", "eslint-config-", "@stylistic/"],
 			"groupName": "eslint packages",
 			"additionalBranchPrefix": ""
 		}
