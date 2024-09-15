@@ -4,6 +4,7 @@
 		"config:best-practices",
 		":pinOnlyDevDependencies",
 		"schedule:weekends",
+		":noUnscheduledUpdates",
 		":automergeMinor",
 		":semanticCommits",
 		":rebaseStalePrs",
