@@ -16,6 +16,10 @@
 	"gitIgnoredAuthors": ["github+renovate@scharley.me"],
 	"packageRules": [
 		{
+			"matchDepTypes": ["peerDependencies"],
+			"semanticCommitType": "fix"
+		},
+		{
 			"matchPackageNames": ["@types/node", "node"],
 			"groupName": "node",
 			"allowedVersions": "^20.9.0 || ^22.11.0",
