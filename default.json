@@ -30,8 +30,18 @@
 			"additionalBranchPrefix": ""
 		},
 		{
-			"matchPackageNames": ["@mscharley/eslint-config", "@mscharley/prettier-config", "eslint"],
-			"matchPackagePrefixes": ["eslint-plugin-", "eslint-config-", "@stylistic/", "@typescript-eslint/"],
+			"matchPackageNames": [
+				"@mscharley/eslint-config",
+				"@mscharley/prettier-config",
+				"eslint",
+				"typescript-eslint",
+				"eslint-plugin-*",
+				"eslint-config-*",
+				"eslint-import-*",
+				"@eslint/**",
+				"@stylistic/**",
+				"@typescript-eslint/**"
+			],
 			"groupName": "eslint packages",
 			"additionalBranchPrefix": ""
 		}
