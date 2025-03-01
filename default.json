@@ -13,7 +13,8 @@
 	],
 	"automergeStrategy": "fast-forward",
 	"transitiveRemediation": true,
-	"gitIgnoredAuthors": ["github+renovate@scharley.me", "viteshot-bot@zenc.io"],
+	"rangeStrategy": "bump",
+	"gitIgnoredAuthors": ["github+renovate@scharley.me"],
 	"packageRules": [
 		{
 			"matchPackageNames": ["@types/node", "node"],
