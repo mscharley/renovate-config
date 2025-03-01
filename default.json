@@ -43,6 +43,8 @@
 				"@typescript-eslint/**"
 			],
 			"groupName": "eslint packages",
+			"separateMajorMinor": false,
+			"separateMinorPatch": false,
 			"additionalBranchPrefix": ""
 		}
 	]
