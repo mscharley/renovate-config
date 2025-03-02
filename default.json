@@ -20,6 +20,10 @@
 			"semanticCommitType": "fix"
 		},
 		{
+			"matchDepTypes": ["engines"],
+			"enabled": false
+		},
+		{
 			"matchPackageNames": ["@types/node", "node"],
 			"groupName": "node",
 			"allowedVersions": "^20.9.0 || ^22.11.0",
