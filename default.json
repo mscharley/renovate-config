@@ -14,6 +14,7 @@
 	"automergeStrategy": "fast-forward",
 	"rangeStrategy": "bump",
 	"gitIgnoredAuthors": ["github+renovate@scharley.me"],
+	"postUpdateOptions": ["pnpmDedupe"],
 	"packageRules": [
 		{
 			"matchDepTypes": ["peerDependencies"],
