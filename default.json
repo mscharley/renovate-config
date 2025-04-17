@@ -11,6 +11,7 @@
 		":label(dependencies)",
 		"npm:unpublishSafe"
 	],
+	"timezone": "Australia/Melbourne",
 	"automergeStrategy": "fast-forward",
 	"rangeStrategy": "bump",
 	"gitIgnoredAuthors": ["github+renovate@scharley.me"],
