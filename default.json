@@ -16,6 +16,10 @@
 	"rangeStrategy": "bump",
 	"gitIgnoredAuthors": ["github+renovate@scharley.me"],
 	"postUpdateOptions": ["pnpmDedupe"],
+	"lockFileMaintenance": {
+		"enabled": true,
+		"schedule": ["before 4am on saturday"]
+	},
 	"packageRules": [
 		{
 			"matchDepTypes": ["peerDependencies"],
