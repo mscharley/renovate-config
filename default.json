@@ -22,6 +22,7 @@
 	"packageRules": [
 		{
 			"matchManagers": ["npm"],
+			"matchDepTypes": ["!packageManager"],
 			"postUpdateOptions": ["pnpmDedupe"]
 		},
 		{
