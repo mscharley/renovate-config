@@ -9,6 +9,7 @@
 		":semanticCommits",
 		":rebaseStalePrs",
 		":label(dependencies)",
+		":gitSignOff",
 		"npm:unpublishSafe"
 	],
 	"timezone": "Australia/Melbourne",
