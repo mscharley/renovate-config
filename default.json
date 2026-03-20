@@ -51,7 +51,6 @@
 		{
 			"matchPackageNames": [
 				"@mscharley/eslint-config",
-				"@mscharley/prettier-config",
 				"eslint",
 				"typescript-eslint",
 				"eslint-plugin-*",
@@ -59,9 +58,12 @@
 				"eslint-import-*",
 				"@eslint/**",
 				"@stylistic/**",
-				"@typescript-eslint/**"
+				"@typescript-eslint/**",
+				"@mscharley/prettier-config",
+				"prettier",
+				"prettier-plugin-*"
 			],
-			"groupName": "eslint packages",
+			"groupName": "linting packages",
 			"separateMajorMinor": false,
 			"separateMinorPatch": false,
 			"additionalBranchPrefix": ""
